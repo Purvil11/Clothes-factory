@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/6.1.1/css/all.min.css"   />
+    <title>ᴄʟᴏᴛʜᴇs ғᴀᴄᴛᴏʀʏ</title>
+    <style>
+        .nav {
+            text-align: right;
+
+            position: sticky;
+            background-color: #808B96;
+            height: 100px;
+            margin-top: 0;
+            padding: 30px;
+
+
+
+
+        }
+
+        .nav-items ul li {
+            display: inline-block;
+            margin-inline: 28px;
+            font-size: 30px;
+            color: #283747;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            padding: 18px;
+
+        }
+
+        .nav-items ul li a {
+            text-decoration: none;
+            cursor: pointer;
+            color: #283747;
+
+        }
+
+        .nav-items ul li:hover {
+            color: #088178;
+            text-decoration: none;
+        }
+
+        .nav-items ul li:hover a {
+            color: #088178;
+            text-decoration: none;
+        }
+
+        .page-header {
+            background-image: url('b1.jpg');
+            width: 100%;
+            height: 40vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            /* padding: 14px;  */
+
+        }
+
+        .page-header h4 {
+            text-align: center;
+            color: azure;
+            font-size: 45px;
+        }
+
+        .page-header p {
+            text-align: center;
+            color: azure;
+            font-size: 34px;
+
+            margin-top: 0px;
+        }
+
+        #product1 {
+            text-align: center;
+            padding-left: 175px;
+            padding-right: 7px;
+
+        }
+
+        #product1 .pro {
+            width: 23%;
+            min-width: 250px;
+            padding: 10px 12px;
+            border: 1px solid #cce7d0;
+            cursor: pointer;
+            margin: 15px 0;
+            box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+            border-radius: 25px;
+
+        }
+
+        #product1 .pro img {
+            width: 100%;
+            border-radius: 20px;
+
+        }
+
+        #product1 .pro img:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+
+        #product1 .pro h4 {
+            text-align: left;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #product1 .pro-container {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            flex-wrap: wrap;
+            margin-inline: 90px;
+            margin-right: 300px;
+
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-decoration: none;
+            padding-left: 230px;
+
+
+
+        }
+
+        footer .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+
+        }
+
+        .se3 {
+            margin-right: 590px;
+            font-size: 25px;
+            text-decoration: none;
+
+        }
+
+        .se1 {
+            margin-left: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .se2 {
+            margin-left: 150px;
+            font-size: 25px;
+        }
+
+        footer .col a {
+            text-decoration: none;
+            color: #2c3534;
+        }
+
+        .nav-items ul li h3 {
+            padding-right: 2000px;
+            margin-top: 50px;
+        }
+
+        .btn1 {
+            height: 35px;
+            color: #1B2631;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-top: 12px;
+            justify-content: space-between;
+            background-color: #FFD43B;
+            cursor: pointer;
+
+        }
+        .btn1:hover{
+            background-color: #cce7d0;
+        }
+
+        .icon {
+            font-size: 20px;
+        }
+
+        .star {
+            text-align: left;
+        }
+        #ls {
+            font-size: 30px;
+            padding-right: 18px;
+            color: #283747;
+        }
+        #search{
+            font-size: 30px;
+            padding-right: 40px;
+            color: #283747;
+        }
+        .btn2{
+            height: 35px;
+            color: #1B2631;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: 12px;
+            justify-content: space-between;
+            margin: 25px;
+            background-color:  #FFD43B;
+            cursor: pointer;
+            
+        }
+        .btn2:hover{
+            background-color:#cce7d0 ;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+
+        <div class="nav">
+            <div class="nav-items ">
+                <ul>
+
+                    <li> <a href="index.html">Home</li></a>
+                    <li><a href="shop.html">Shop</li></a>
+                    <li><a href="about.html">About</li></a>
+                    <li><a href="blog.html">Blog</li></a>
+                    <!-- <li> <a href="signup.html">Sign Up</li></a> -->
+                    <i id="search" class="fa fa-search" aria-hidden="true"></i>
+                    <a href="signup.html"><span class="fa fa-user" id="ls"></span></a>
+
+
+
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="page-header">
+        <h4>#Shop Now</h4>
+        <p>Save more with Coupons & up to 70% off!</p>
+    </div>
+
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="f1.jpg">
+                <div class="des">
+                    <h4>Cartoon Astronaut Shirts </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                               #FFD43B;"></i>
+                    </div>
+                    <h4>&#x20A8; 799</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+        
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f3.jpg">
+                <div class="des">
+                    <h4>Design Shirts </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                              #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 1799</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f2.jpg">
+                <div class="des">
+                    <h4>Tropical Leaf Printed Shirts </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 2499</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f6.jpg">
+                <div class="des">
+                    <h4>Unique Jacket </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 1500</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f5.jpg">
+                <div class="des">
+                    <h4>Laxeric Casual Shirt </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                               #FFD43B;"></i>
+                    </div>
+                    <h4>&#x20A8; 999</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f4.jpg">
+                <div class="des">
+                    <h4>Lymio men's Shirt </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                               #FFD43B;"></i>
+                    </div>
+                    <h4>&#x20A8; 1200</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f7.jpg">
+                <div class="des">
+                    <h4>Grecilools Men Casual Pants </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 1499</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="f8.jpg">
+                <div class="des">
+                    <h4>Women's Rayon Printed Oversized Shirt </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                           #FFD43B;"></i>
+
+
+                    </div>
+                    <h4>&#x20A8; 599</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n10.jpg">
+                <div class="des">
+                    <h4>Western Dress </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                          #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 369</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n1.jpg">
+                <div class="des">
+                    <h4>Casual Shirt for Men </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 949</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n11.jpg">
+                <div class="des">
+                    <h4>Joggers Pants </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                           #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 999</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n9.jpg">
+                <div class="des">
+                    <h4>Kotty Women Trousers </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 284</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+            <div class="pro">
+                <img src="n4.jpg">
+                <div class="des">
+                    <h4>Half Slive Shirts </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                           #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 1999</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n5.jpg">
+                <div class="des">
+                    <h4>Oversized Shirts </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 699</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n6.jpg">
+                <div class="des">
+                    <h4>Womens Jersey Shorts </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 499</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="n7.jpg">
+                <div class="des">
+                    <h4>Men's Regular Fit Shirt </h4>
+                    <div class="star">
+                        <i class="fa fa-star" style="color: 
+                        #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                         #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: 
+                          #FFD43B;"></i>
+                        <i class="fa fa-star-half" style="color: 
+                           #FFD43B;"></i>
+
+                    </div>
+                    <h4>&#x20A8; 784</h4>
+                    <button class="btn2">Buy now</button>
+                    <button class="btn1">Add to cart</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+
+        <div class="col se1">
+            <h1>ᴄʟᴏᴛʜᴇs ғᴀᴄᴛᴏʀʏ</h1>
+            <h4 style="font-size: 23px;">Contact</h4>
+            <p style="font-size: 20px;"><strong>Address:</strong> 364 Rutherford Drive, Lake Coralee,United States
+            </p>
+            <p style="font-size: 20px;"><strong>Phone:</strong>+18202476676 </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col se2">
+            <h4>Page</h4>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About </a>
+            <a href="blog.html">Blog</a>
+        </div>
+
+        <div class="col se3">
+            <h4>Legel</h4>
+            <a href="#">Privacy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Help</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

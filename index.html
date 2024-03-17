@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/6.1.1/css/all.min.css"   />
+    <title>ᴄʟᴏᴛʜᴇs ғᴀᴄᴛᴏʀʏ</title>
+    <style>
+        body {
+            width: 100%;
+            background-image: url('home.png');
+            height: 90vh;
+            background-size: cover;
+            background-position: top 25% right 0;
+            background-repeat: no-repeat;
+
+        }
+
+        .nav {
+            text-align: right;
+
+            position: sticky;
+
+
+
+
+        }
+
+        .nav-items ul li {
+            display: inline-block;
+            margin-inline: 28px;
+            font-size: 30px;
+            color: #283747;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            padding: 18px;
+
+        }
+
+        .text {
+            font-size: 38px;
+            padding-left: 245px;
+            margin-top: 260px;
+            color: #283747;
+        }
+
+        .btn {
+
+            font-size: 31px;
+            cursor: pointer;
+            border: 2px solid gray;
+            color: #837575;
+            border-radius: 6px;
+            padding-left: 18px;
+            padding-right: 18px;
+
+
+
+
+
+        }
+
+        .button {
+            padding-left: 245px;
+            margin-top: 25px;
+
+        }
+
+        .nav-items ul li a {
+            text-decoration: none;
+            cursor: pointer;
+            color: #283747;
+
+        }
+
+        .nav-items ul li:hover {
+            color: #088178;
+            text-decoration: none;
+        }
+
+        .nav-items ul li:hover a {
+            color: #088178;
+            text-decoration: none;
+        }
+
+        #feature.fe-box {
+            width: 180px;
+            text-align: center;
+            padding: 25px 15px;
+
+
+        }
+
+        .fe-box {
+            margin-top: 690px;
+
+        }
+
+        #feature {
+            display: flex;
+            justify-content: space-between;
+
+
+
+        }
+
+        #feature.fe-box {
+            width: 180px;
+            text-align: center;
+
+        }
+
+        .se {
+            /* margin-left: 22px; */
+            padding-left: 22px;
+            padding-right: 270px;
+            overflow: hidden;
+
+        }
+
+        #product1 {
+            text-align: center;
+        }
+
+        #product1 .pro {
+            width: 23%;
+            min-width: 250px;
+            padding: 10px 12px;
+            border: 1px solid #cce7d0;
+            cursor: pointer;
+            margin: 15px 0;
+            box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+            border-radius: 25px;
+
+        }
+
+        #product1 .pro img {
+            width: 100%;
+            border-radius: 20px;
+
+        }
+
+        #product1 .pro img:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+
+        #product1 .pro h4 {
+            text-align: left;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #product1 .pro-container {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            flex-wrap: wrap;
+            /* margin-inline: 90px; */
+            margin-right: 300px;
+
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-decoration: none;
+
+
+
+
+        }
+
+        footer .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+
+        }
+
+        .se3 {
+            margin-right: 590px;
+            font-size: 25px;
+            text-decoration: none;
+
+        }
+
+        .se1 {
+            margin-left: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .se2 {
+            margin-left: 150px;
+            font-size: 25px;
+        }
+
+        footer .col a {
+            text-decoration: none;
+            color: #2c3534;
+        }
+
+        .nav-items ul li h3 {
+            padding-right: 2000px;
+            margin-top: 50px;
+        }
+
+        .btn1 {
+            height: 35px;
+            color: #1B2631;
+            padding-left: 27px;
+            padding-right: 25px;
+            margin-top: 12px;
+            justify-content: space-between;
+            background-color:  #FFD43B;
+            cursor: pointer;
+
+        }
+        .btn1:hover{
+            background-color: #cce7d0;
+        }
+        .star {
+            text-align: left;
+        }
+
+        .icon {
+            font-size: 20px;
+
+        }
+
+        .logo {
+            padding-left: 10px;
+            padding-right: 700px;
+            text-decoration: none;
+            color: #69798c;
+            font-size: 40px;
+
+
+        }
+
+        #ls {
+            font-size: 30px;
+            padding-right: 30px;
+            color: #283747;
+        }
+        #search{
+            font-size: 30px;
+            padding-right: 40px;
+            color: #283747;
+
+        }
+        .btn2{
+            height: 35px;
+            color: #1B2631;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: 12px;
+            justify-content: space-between;
+            margin: 25px;
+            background-color:  #FFD43B;
+            cursor: pointer;
+
+            
+        }
+        .btn2:hover{
+            background-color:#cce7d0 ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="header">
+
+        <div class="nav">
+            <div class="nav-items ">
+                <ul>
+                    <a href="#" class="logo">𝖈𝖑𝖔𝖙𝖍𝖊𝖘 𝖋𝖆𝖈𝖙𝖔𝖗𝖞</a>
+                    <li> <a href="index.html">Home</li></a>
+                    <li><a href="shop.html">Shop</li></a>
+                    <li><a href="about.html">About</li></a>
+                    <li><a href="blog.html">Blog</li></a>
+                    <!-- <li> <a href="signup.html">Sign Up</li></a> -->
+                    <i id="search" class="fa fa-search" aria-hidden="true"></i>
+                    <a href="signup.html"><span class="fa fa-user" id="ls"></span></a>
+
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <div class="text">
+        <h3>Latest & Exclusive Collection </h3>
+        <h3> For All Category </h3>
+        <p>Save more with coupons &up to 70% off!</p>
+
+    </div>
+    <div class="button">
+        <div id="txt"></div>
+        <button class="btn " onClick="gettxt()">Shop now</button>
+
+        <section id="feature">
+            <div class="fe-box se ">
+                <img src="f1.png">
+                <h4 style="font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #566573; ">Free Shipping
+                </h4>
+            </div>
+
+            <div class="fe-box se">
+                <img src="f2.png">
+                <h4 style="font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #566573; ">Online Order
+                </h4>
+            </div>
+
+            <div class="fe-box se">
+                <img src="f3.png">
+                <h4 style="font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #566573; ">Save Money</h4>
+            </div>
+
+            <div class="fe-box se">
+                <img src="f4.png">
+                <h4 style="font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #566573; ">Happy Sale</h4>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Featured product -->
+
+        <section id="product1" class="section-p1">
+            <h1
+                style="font-size: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:#999999;">
+                Featured Products</h1>
+            <p
+                style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#454545; ">
+                New Arrivals Clothes Design</p>
+
+
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="f1.jpg">
+                    <div class="des">
+                        <h4>Cartoon Astronaut Shirts </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+                            <i class="fa fa-star-half" style="color: 
+                               #FFD43B;"></i>
+
+                        </div>
+                        <h4>&#x20A8; 799</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f3.jpg">
+                    <div class="des">
+                        <h4>Design Shirts </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+
+                        </div>
+                        <h4>&#x20A8; 1799</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f2.jpg">
+                    <div class="des">
+                        <h4>Tropical Leaf Printed Shirts </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                               #FFD43B;"></i>
+                        </div>
+                        <h4>&#x20A8; 2499</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f6.jpg">
+                    <div class="des">
+                        <h4>Unique Jacket </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+
+                        </div>
+                        <h4>&#x20A8; 1500</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f5.jpg">
+                    <div class="des">
+                        <h4>Laxeric Casual Shirt </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+
+                        </div>
+                        <h4>&#x20A8; 999</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f4.jpg">
+                    <div class="des">
+                        <h4>Lymio men's Shirt </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star-half" style="color: 
+                              #FFD43B;"></i>
+
+                        </div>
+                        <h4>&#x20A8; 1200</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f7.jpg">
+                    <div class="des">
+                        <h4>Grecilools Men Casual Pants </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                              #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                               #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                                #FFD43B;"></i>
+                        </div>
+                        <h4>&#x20A8; 1499</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+
+                    </div>
+
+                </div>
+
+                <div class="pro">
+                    <img src="f8.jpg">
+                    <div class="des">
+                        <h4>Women's Rayon Printed Oversized Shirt </h4>
+                        <div class="star">
+                            <i class="fa fa-star" style="color: 
+                           #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                            #FFD43B;"></i>
+                            <i class="fa fa-star" style="color: 
+                             #FFD43B;"></i>
+                            <i class="fa fa-star-half" style="color: 
+                              #FFD43B;"></i>
+
+                        </div>
+                        <h4>&#x20A8; 599</h4>
+                        <button class="btn2">Buy now</button>
+                        <button class="btn1">Add to cart</button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="section-p1">
+
+            <div class="col se1">
+                <h1>ᴄʟᴏᴛʜᴇs ғᴀᴄᴛᴏʀʏ</h1>
+                <h4 style="font-size: 23px;">Contact</h4>
+                <p style="font-size: 20px;"><strong>Address:</strong> 364 Rutherford Drive, Lake Coralee,United States
+                </p>
+                <p style="font-size: 20px;"><strong>Phone:</strong>+18202476676 </p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col se2">
+                <h4>Page</h4>
+                <a href="home.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About </a>
+                <a href="blog.html">Blog</a>
+            </div>
+
+            <div class="col se3">
+                <h4>Legel</h4>
+                <a href="pp.html">Privacy</a>
+                <a href="rr.html">Refund Policy</a>
+                <a href="cookie.html">Cookie Policy</a>
+                <a href="#">Help</a>
+            </div>
+
+        </footer>
+
+
+</body>
+<script src="./jquey.js"></script>
+<script>
+    function gettxt() {
+        let xhr = new XMLHttpRequest();
+        xhr.open("GET", "demo.txt");
+        xhr.send();
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 4) {
+                document.getElementById("txt").innerHTML = this.responseText;
+                $('.btn').hide();
+            }
+        }
+    }
+</script>
+
+
+</htm
